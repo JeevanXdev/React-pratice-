@@ -7,7 +7,7 @@ function Toggle(): JSX.Element {
     <div style={{ margin: '20px' }}>
       <p>Status: {isOn ? 'ON' : 'OFF'}</p>
       <button onClick={() => setIsOn(prev => !prev)}>
-        Toggle
+        Toggle the status 
       </button>
     </div>
   );
